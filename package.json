@@ -1,10 +1,8 @@
 {
   "version": "14.0.2",
   "name": "twemoji",
-  "license": [
+  "license": 
     "MIT",
-    "CC-BY-4.0"
-  ],
   "description": "A Unicode standard based way to implement emoji across all platforms.",
   "homepage": "https://github.com/twitter/twemoji",
   "keywords": [
@@ -45,6 +43,7 @@
   },
   "files": [
     "dist/twemoji*.js",
-    "index.d.ts"
+    "index.d.ts",
+    "assets/*"
   ]
 }
