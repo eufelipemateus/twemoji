@@ -57,7 +57,7 @@ function createTwemoji() {
 
           // default assets/folder size, by default "72x72"
           // available via Twitter CDN: 72
-          size: '72x72',
+          size: '32x32',
 
           // default class name, by default 'emoji'
           className: 'emoji',
