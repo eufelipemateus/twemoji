@@ -37,20 +37,19 @@ jobs:
       - name: Update Package.json version
         uses: jossef/action-set-json-field@v2.1
         with:
-          file:  dist/ng-adblock-detect/package.json
+          file: ./package.json
           field: version
           value: ${{ github.event.release.tag_name }}
 
       - name: Update Package.json version
         uses: jossef/action-set-json-field@v2.1
         with:
-          file:  dist/ng-adblock-detect/package.json
+          file:  ./package.json
           field: name
           value: "@${{github.actor}}/${{ github.event.repository.name }}"
 
       - name: Publish Package in github
         run: |
-          cd dist/ng-adblock-detect
           npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
