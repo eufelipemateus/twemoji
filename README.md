@@ -24,7 +24,7 @@ This guarantees that you will always use the latest version of the library.
 
 If, instead, you'd like to include the latest version explicitly, you can add the following tag:
 ```html
-<script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" integrity="sha384-eNyqJJeXMMy3k/gmEYk2SQI4h1b/VRljJRfAHZxpcKsI//uWYhNj9cD3TdjLWPRz" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" integrity="sha384-eLSBn9X6JGeZbfpPq/AuFRs92uq+HwM8ztNbBcdPkMhvaxOsB4U5l5yTYQoWyeqs" crossorigin="anonymous"></script>
 ```
 
 ### Download

@@ -70,3 +70,4 @@ updateSriScriptReference(file('README.md'));
 fs.copySync(file('assets/svg'), distFile('svg'));
 fs.copySync(file('assets/72x72'), distFile('72x72'));
 fs.copySync(file('assets/32x32'), distFile('32x32'));
+fs.copySync(file('assets/16x16'), distFile('16x16'));

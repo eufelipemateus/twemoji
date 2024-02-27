@@ -49,7 +49,7 @@ function createTwemoji() {
           // default assets url, by default will be Twitter Inc. CDN
           //base: 'https://cdnjs.cloudflare.com/ajax/libs/twemoji/$VERSION/',
 
-          base: 'https://cdn.jsdelivr.net/gh/eufelipemateus/twemoji@14.0.2/assets/',
+          base: 'https://inti-public-assets.s3.sa-east-1.amazonaws.com/emojis/',
 
 
           // default assets file extensions, by default '.png'
@@ -417,6 +417,7 @@ function createTwemoji() {
               img.className = options.className;
               img.alt = rawText;
               img.src = src;
+              img.style = 'width:16px';
               modified = true;
               fragment.appendChild(img);
             }
@@ -466,6 +467,7 @@ function createTwemoji() {
             ret = '<img '.concat(
               'class="', options.className, '" ',
               'draggable="false" ',
+              'style="width:16px"'  ,
               // needs to preserve user original intent
               // when variants should be copied and pasted too
               'alt="',
